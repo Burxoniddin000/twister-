@@ -1,0 +1,90 @@
+.profil__item {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.profil__namber {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.profil {
+  border-right: 1px solid;
+}
+
+.profil__img {
+  position: absolute;
+  transform: translate(15px, -50px);
+}
+
+.profil__btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  position: absolute;
+  right: 25px;
+  top: 220px;
+  padding: 10px 15px;
+}
+
+.profil__at {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.profil__inner {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #1da1f2;
+}
+
+.profil__folower {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.profil__folow {
+  opacity: 0.7;
+}
+
+.profil__twiter {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  border-bottom: 3px solid #1da1f2;
+  padding-bottom: 15px;
+}
+
+.profil__ul {
+  border-bottom: 1px solid;
+}
+
+.profil__taxt {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000000;
+}

@@ -7,7 +7,7 @@ import Follow from './Follow'
 function Sarche() {
     return (
         <>
-            <div>
+            <div className='mr-2'>
                 <div className='sarche__input'>
                     <img src={vecto12} alt="vecto12" />
                     <input className='sarche__tiwiter' type="text" placeholder='Search Twitter' />

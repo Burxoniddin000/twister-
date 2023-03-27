@@ -1,9 +1,12 @@
-import User from "./componets/User";
+// import User from "./componets/User";
+
+import Acunt from "./componets/Acunt";
 
 function App() {
   return (
     <>
-     <User/>
+      {/* <User/> */}
+      <Acunt />
     </>
   );
 }

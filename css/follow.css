@@ -1,0 +1,50 @@
+.follow__div {
+  background: #f7f9f9;
+  border-radius: 10px;
+  width: 373px;
+  padding: 20px 15px;
+}
+
+.folow__taxt {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.fllow__mush {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.follow__name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.follow__btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #000000;
+  border-radius: 50px;
+  width: 92px;
+  padding: 2px 10px;
+}
+
+.follow__show {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #1da1f2;
+  margin-top: 30px;
+}/*# sourceMappingURL=follow.css.map */

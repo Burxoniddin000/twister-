@@ -1,0 +1,63 @@
+.taxt {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.main__div {
+  border-bottom: 2px solid #d8d8d8;
+  padding: 20px;
+}
+
+.main__input {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  color: #828282;
+}
+
+.main__btn {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 100%;
+  width: 108px;
+  height: 50px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #1da1f2;
+  opacity: 0.4;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 120px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.contaioner {
+  border-right: 1px solid;
+}
+
+.Designsta {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.inner {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.item {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+}/*# sourceMappingURL=main.css.map */

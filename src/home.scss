@@ -1,0 +1,53 @@
+.home {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.btn {
+  background: #1d9bf0;
+  border-radius: 27.5px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  width: 230px;
+  height: 55px;
+  margin-top: 32px;
+}
+
+.div {
+  width: 330px;
+  border-right: 1px solid;
+}
+
+.nmae {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.home__taxt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.6;
+}

@@ -1,0 +1,35 @@
+.sarche__input {
+  background: #eff3f4;
+  border-radius: 31px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-left: 28px;
+  width: 373px;
+}
+
+.sarche__tiwiter {
+  background: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5c6c79;
+  outline: none;
+}
+
+.saerche__taxt{
+    font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+
+color: #536471;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}

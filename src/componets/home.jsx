@@ -59,7 +59,9 @@ function Home() {
                     </li>
                 </ul>
                 <div>
+                    <Link to={'/Login'}>
                     <button className='btn'>Tweet</button>
+                    </Link>
                 </div>
                 <div className='flex gap-3 mt-[263px] cursor-pointer'>
                     <Link to={'/Acunt'}>

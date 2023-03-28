@@ -1,13 +1,13 @@
 import React from 'react'
-import Home from './home'
-import Profil from './Profil'
-import SarcheTwiter from './SarcheTwiter'
+import Home2 from '../componets/Home2'
+import Profil from '../componets/Profil'
+import SarcheTwiter from '../componets/SarcheTwiter'
 
 function Acunt() {
     return (
         <>
             <div className='flex'>
-                <Home />
+                <Home2 />
                 <Profil />
                 <SarcheTwiter />
             </div>

@@ -1,18 +1,20 @@
 import React from 'react'
 import '../home.scss'
 import twitter from '../img/twitter.svg'
-import home from '../img/home.png'
 import vecto from '../img/Vecto.svg'
 import vecto2 from '../img/Vector2.png'
 import vecto4 from '../img/Vector4.png'
 import vecto5 from '../img/Vector5.png'
-import vecto6 from '../img/Vector6.png'
+import Vector20 from '../img/Vector20.png'
+import Vector21 from '../img/Vector21.png'
 import lists from '../img/lists.png'
 import more from '../img/more.png'
 import ellipse from '../img/Ellipse.png'
+// import Acunt from '../pages/Acunt'
 import { Link } from 'react-router-dom'
+// import User from '../pages/User'
 
-function Home() {
+function Home2() {
     return (
         <>
             <div className='ml-14 mt-[30px] div mb-32'>
@@ -21,8 +23,8 @@ function Home() {
                 </div>
                 <ul className='mt-[56px]'>
                     <li className='flex gap-[27.7px] items-center'>
-                        <img src={home} alt="home" />
-                        <h2 className='home'>Home</h2>
+                        <img src={Vector21} alt="home" />
+                        <h2 className='item'>Home</h2>
                     </li>
                     <li className='flex gap-[27.7px] items-center mt-[36px]'>
                         <img src={vecto} alt="home" />
@@ -45,9 +47,8 @@ function Home() {
                         <h2 className='item'>Lists</h2>
                     </li>
                     <li className='flex gap-[27.7px] items-center mt-[36px]'>
-                        <img src={vecto6} alt="home" />
-                        <h2 className='item'>
-
+                        <img src={Vector20} alt="home" />
+                        <h2 className='home'>
                             <Link to={'/Acunt'}>
                                 Profile
                             </Link>
@@ -62,9 +63,7 @@ function Home() {
                     <button className='btn'>Tweet</button>
                 </div>
                 <div className='flex gap-3 mt-[263px] cursor-pointer'>
-                    <Link to={'/Acunt'}>
                     <img src={ellipse} alt="ellipse" />
-                    </Link>
                     <div className='cursor-pointer'>
                         <h5 className='nmae'>Bobur</h5>
                         <p className='home__taxt'>@bobur_mavlonov</p>
@@ -75,4 +74,4 @@ function Home() {
         </>
     )
 }
-export default Home
+export default Home2

@@ -5,8 +5,10 @@ import Ellipse4 from '../img/Ellipse4.png'
 import Vector19 from '../img/Group.png'
 import Group3 from '../img/Group3.png'
 import Ellipse from '../img/Ellipse.png'
+import image8 from '../img/image8.png'
 import '../profil.scss'
 import Like from './like'
+import { Link } from 'react-router-dom'
 
 function Profil() {
     return (
@@ -15,7 +17,9 @@ function Profil() {
                 <div>
                     <div>
                         <div className='flex items-center gap-10 ml-8 mt-5 mb-4'>
-                            <img className='h-3' src={Arrow} alt="Arrow" />
+                            <Link to={'/'}>
+                                <img className='h-3' src={Arrow} alt="Arrow" />
+                            </Link>
                             <div>
                                 <h1 className='profil__item'>Bobur</h1>
                                 <p className='profil__namber'>1,070 Tweets</p>
@@ -105,6 +109,21 @@ function Profil() {
 
                             </div>
                         </div>
+                        <Like />
+                    </div>
+                    <div>
+
+                        <div className='flex items-center gap-3'>
+                            <img className='h-14' src={Ellipse} alt="Ellipse" />
+                            <div>
+                                <div className='flex gap-2 items-center mt-4'>
+                                    <h1 className='profil__item'>Bobur</h1>
+                                    <p className='profil__namber'>@bobur_mavlonov · Apr 1</p>
+                                </div>
+                                <p className='profil__taxt'>A bo'pti maskamasman</p>
+                            </div>
+                        </div>
+                        <img className='mt-3 w-[600px] ' src={image8} alt="image8" />
                         <Like />
                     </div>
                 </div>

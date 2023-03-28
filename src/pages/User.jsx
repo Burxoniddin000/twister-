@@ -1,7 +1,7 @@
 import React from 'react'
-import Home from './home'
-import Main from './main'
-import Sarche from './sarche'
+import Home from '../componets/home'
+import Main from '../componets/main'
+import Sarche from '../componets/sarche'
 
 function User() {
   return (

@@ -1,10 +1,10 @@
 import React from 'react'
 import twitter from '../img/twitter.svg'
-import '../login.scss'
+import '../scss/login.scss'
 
 function Login() {
 
-    
+
     return (
         <>
             <div className='w-[450px] mx-auto mt-16 '>

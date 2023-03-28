@@ -1,6 +1,6 @@
 import React from 'react'
 import vecto14 from '../img/settings.png'
-import '../trends.scss'
+import '../scss/trends.scss'
 
 function Trends() {
     return (

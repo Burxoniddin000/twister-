@@ -1,7 +1,7 @@
 import React from 'react'
 import Ellips from '../img/Ellips.png'
 import Ellips2 from '../img/Ellipse2.png'
-import '../follow.scss'
+import '../scss/follow.scss'
 
 function Follow() {
     return (

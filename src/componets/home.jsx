@@ -1,5 +1,5 @@
 import React from 'react'
-import '../home.scss'
+import '../scss/home.scss'
 import twitter from '../img/twitter.svg'
 import home from '../img/home.png'
 import vecto from '../img/Vecto.svg'

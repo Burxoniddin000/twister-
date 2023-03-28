@@ -1,5 +1,5 @@
 import React from 'react'
-import '../sarche.scss'
+import '../scss/sarche.scss'
 import vecto12 from '../img/Vector12.png'
 import Trends from './Trends'
 import Follow from './Follow'

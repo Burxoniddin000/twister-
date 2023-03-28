@@ -6,7 +6,7 @@ import Vector19 from '../img/Group.png'
 import Group3 from '../img/Group3.png'
 import Ellipse from '../img/Ellipse.png'
 import image8 from '../img/image8.png'
-import '../profil.scss'
+import '../scss/profil.scss'
 import Like from './like'
 import { Link } from 'react-router-dom'
 

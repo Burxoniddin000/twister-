@@ -1,5 +1,5 @@
 import React from 'react'
-import '../sarche.scss'
+import '../scss/sarche.scss'
 import Rectangle from '../img/Rectangle.png'
 import Rectangle2 from '../img/Rectangle2.png'
 import Rectangle3 from '../img/Rectangle3.png'
